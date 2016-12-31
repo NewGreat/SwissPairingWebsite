@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+database_connection	tests/tests.py	/^def database_connection():$/;"	kind:function	line:10
+deploy.py	deploy/deploy.py	1;"	kind:file	line:1
+pairing.py	main/pairing.py	1;"	kind:file	line:1
+pytest	tests/tests.py	/^import pytest$/;"	kind:namespace	line:1
+random	main/pairing.py	/^import random$/;"	kind:namespace	line:1
+sqlalchemy	tests/tests.py	/^    import sqlalchemy$/;"	kind:namespace	line:11
+sqlalchemy	tests/tests.py	/^import sqlalchemy$/;"	kind:namespace	line:2
+test_backup_exists	tests/tests.py	/^def test_backup_exists():$/;"	kind:function	line:15
+test_create_event	tests/tests.py	/^def test_create_event(database_connection):$/;"	kind:function	line:34
+test_create_player	tests/tests.py	/^def test_create_player(database_connection):$/;"	kind:function	line:31
+test_create_team_tournament	tests/tests.py	/^def test_create_team_tournament(database_connection):$/;"	kind:function	line:46
+test_create_tournament_3_round	tests/tests.py	/^def test_create_tournament_3_round(database_connection):$/;"	kind:function	line:37
+test_create_tournament_6_round	tests/tests.py	/^def test_create_tournament_6_round(database_connection):$/;"	kind:function	line:40
+test_create_tournament_8_round	tests/tests.py	/^def test_create_tournament_8_round(database_connection):$/;"	kind:function	line:43
+test_indexs_exist	tests/tests.py	/^def test_indexs_exist(database_connection):$/;"	kind:function	line:24
+test_schema_ver	tests/tests.py	/^def test_schema_ver(database_connection):$/;"	kind:function	line:18
+test_tables_exist	tests/tests.py	/^def test_tables_exist(database_connection):$/;"	kind:function	line:21
+test_triggers_exits	tests/tests.py	/^def test_triggers_exits(database_connection):$/;"	kind:function	line:28
+tests.py	tests/tests.py	1;"	kind:file	line:1
