@@ -6,11 +6,14 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 database_connection	tests/tests.py	/^def database_connection():$/;"	kind:function	line:10
 deploy.py	deploy/deploy.py	1;"	kind:file	line:1
+json	deploy/deploy.py	/^import json$/;"	kind:namespace	line:3
 pairing.py	main/pairing.py	1;"	kind:file	line:1
 pytest	tests/tests.py	/^import pytest$/;"	kind:namespace	line:1
 random	main/pairing.py	/^import random$/;"	kind:namespace	line:1
 sqlalchemy	tests/tests.py	/^    import sqlalchemy$/;"	kind:namespace	line:11
 sqlalchemy	tests/tests.py	/^import sqlalchemy$/;"	kind:namespace	line:2
+subprocess	deploy/deploy.py	/^import subprocess$/;"	kind:namespace	line:1
+sys	deploy/deploy.py	/^import sys$/;"	kind:namespace	line:2
 test_backup_exists	tests/tests.py	/^def test_backup_exists():$/;"	kind:function	line:15
 test_create_event	tests/tests.py	/^def test_create_event(database_connection):$/;"	kind:function	line:34
 test_create_player	tests/tests.py	/^def test_create_player(database_connection):$/;"	kind:function	line:31
